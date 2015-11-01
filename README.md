@@ -1,9 +1,3 @@
-After instalation
-*/app_dev.php/api/doc/ - documentation
-*/app.php/games - API
-*/src/Hangman/Bundle/ApiBundle/Tests - unit tests
-
-
 # SIM Hangman API #
 
 In this assignment we ask you to implement a minimal version of a hangman API using the following resources below:
@@ -33,6 +27,12 @@ Every response should contain the following fields:
 *tries_left*: the number of tries left to guess the word (starts at 11)
 
 *status*: current status of the game (busy|fail|success)
+
+## After instalation ##
+- */app_dev.php/api/doc/ - documentation
+- */app.php/games - API
+- */src/Hangman/Bundle/ApiBundle/Tests - unit tests
+
 
 
 
