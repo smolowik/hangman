@@ -1,3 +1,9 @@
+After instalation
+*/app_dev.php/api/doc/ - documentation
+*/app.php/games - API
+*/src/Hangman/Bundle/ApiBundle/Tests - unit tests
+
+
 # SIM Hangman API #
 
 In this assignment we ask you to implement a minimal version of a hangman API using the following resources below:
