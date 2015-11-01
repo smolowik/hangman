@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<routes xmlns="http://symfony.com/schema/routing"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://symfony.com/schema/routing http://symfony.com/schema/routing/routing-1.0.xsd">
+
+  <route id="hungman_api_create" path="/games" methods="POST">
+    <default key="_controller">HangmanApiBundle:Hangman:create</default>
+    <default key="_format">json</default>
+  </route>
+  <route id="hungman_api_list" path="/games" methods="GET">
+    <default key="_controller">HangmanApiBundle:Hangman:list</default>
+    <default key="_format">json</default>
+  </route>
+  <route id="hungman_api_play" path="/games/{id}" methods="PUT">
+    <default key="_controller">HangmanApiBundle:Hangman:play</default>
+    <default key="_format">json</default>
+  </route>
+  
+</routes>
